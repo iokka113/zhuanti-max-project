@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4305861770414150142
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7646961288874079473}
+  - component: {fileID: 5909386888833794063}
+  m_Layer: 0
+  m_Name: DatabaseModule
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7646961288874079473
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4305861770414150142}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5909386888833794063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4305861770414150142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0947f1b33dc141c409aa19c28ad711e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _environment:
+    mute: 0
+    vSync: 1
+    onLAN: 0
+    debugging: 0
+    _playerCountMin: 2
+    _playerCountMax: 4
+  _gameSettings:
+    _globalUnit: 1
+    _playerSpawnPositions:
+    - {x: -10, y: -10}
+    - {x: -5, y: -5}
+    - {x: 5, y: 5}
+    - {x: 10, y: 10}
+    _playerSpawnRange: {x: -5, y: 5}
+    _itemDropRange: {x: -0.5, y: 0.5}
+    _weaponFixed: {fileID: 11400000, guid: c371b62129b78be46a98dc61ec34e66c, type: 2}
+    autoReborn: 1
+    dummyMove: 0
+    _dummySpeed: 1
+    _spriteMagzine: {fileID: 21300000, guid: 0c5d3a7e3b1fa4a4a83f1042a8d6ef9c, type: 3}
+    _spriteHpJuice: {fileID: 21300000, guid: 9da60aba49f217e4893e27b7fd5f3753, type: 3}
+    _cameraSize: 5
+    _cameraPosition: {x: 0, y: 0, z: -10}
+    _mapOrigin: {x: -50, y: -25}
+    _mapGridSize: {x: 5, y: 5}
+    _mapGridCount: {x: 20, y: 12}
+    _morningTime: 20
+    _nightTime: 10
+    _daysRate: 5
+    _daysFadeTime: 1
+    _daysFadeRate: 100
+    _daysFadeScale: {x: 1, y: 2}
+    _safeZoneShowTime: 70
+    _safeZoneOpenTime: 90
+    _safeZoneCloseTime: 120
+    _safeZoneDamage: 5
+    _safeZoneDamageTime: 0.5
+    _lavaDamage: 5
+    _lavaDamageTime: 0.5
+    _lastAttackingTime: 5
+    _rebornWaitingTime: 5
+    _gameOverOvertime: 5
+  _keybindings:
+    _weaponLoad: 114
+    _weaponCharge: 32
+    _weaponAiming: 32
+    _packageGear: 102
+    _packageGeneric: 3100000032000000330000003400000035000000
+    _packageDrop: 323
+    _packagePick: 32
+    _rockJump: 32
+  _soundEffects:
+    _safeShow: {fileID: 8300000, guid: c6395fb5ee393d34f91f1014ce697259, type: 3}
+  _roleConfigs:
+  - {fileID: 11400000, guid: 5d036acbb1578a94194957daf13a83e1, type: 2}
+  - {fileID: 11400000, guid: 4030898922fdc1a4a8a86384d353dd91, type: 2}
+  _weaponConfigs:
+  - {fileID: 11400000, guid: c371b62129b78be46a98dc61ec34e66c, type: 2}
+  - {fileID: 11400000, guid: fb38d8a366f58cd449db560ba198cbc0, type: 2}
+  - {fileID: 11400000, guid: 1c43de8f483e8de40b6905abc3a29ce4, type: 2}
+  - {fileID: 11400000, guid: 27a257625f8e0d548ba965ae4bbfa374, type: 2}
+  - {fileID: 11400000, guid: 0459c32806b7f824a8f1f8a9bbee8888, type: 2}
+  _emptyPackageItems:
+    _gearGrid:
+      _gridIcon: {fileID: 21300000, guid: 0e2f1bf72a127c14face3128cffa04a9, type: 3}
+      _gridInfo: "\u7A7A\u767D\u88DD\u5099\u683C"
+    _genericGrid:
+      _gridIcon: {fileID: 21300000, guid: 0e2f1bf72a127c14face3128cffa04a9, type: 3}
+      _gridInfo: "\u7A7A\u767D\u901A\u7528\u683C"
+      _speedMultiplier: 4
+      _timeSwitch: 0.2

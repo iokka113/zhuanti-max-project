@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e25022e7c4d1e14eaaa68d71a716c95, type: 3}
+  m_Name: Nameless
+  m_EditorClassIdentifier: 
+  _roleType: 0
+  _rolePrefab: {fileID: 0}
+  _roleIcon: {fileID: 0}
+  _roleName: "\u7121\u540D"
+  _roleInfo: "\u7121\u540Dtest"

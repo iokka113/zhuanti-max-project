@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9398b1bd12afe9645bdf26ca04bf6664, type: 3}
+  m_Name: TBatons
+  m_EditorClassIdentifier: 
+  _attackType: 1
+  _weaponType: 2
+  _weaponPrefab: {fileID: 5383768900517562167, guid: 81d17afad322e2c47a7b3a3a083a6c79, type: 3}
+  _weaponIcon: {fileID: 21300000, guid: d6128a95a5152c7499b1d0bb10f87c60, type: 3}
+  _weaponName: "\u71EC\u721D\u70C8\u62D0"
+  _weaponInfo: 'gssegsg
+
+    geseesgsgegsge
+
+    hthfthtfhfthtf'
+  _general:
+    _timeSwitch: 5
+    _timeAttack: 0.5
+    _damageOrignal: 10
+    _damageMultiplier: {x: 0.5, y: 1}
+    _speedMultiplier: 5
+    _cameraView: 5
+  _melee:
+    _attackType: 2
+    _stabInUnits: 1
+    _slashAngle: -120
+    _timeAnime: 0.3
+    _dWieldAngle: 120
+  _ranged:
+    _attackType: 0
+    _rangedPrefab: {fileID: 0}
+    _rangedCount: 5
+    _rangedSpeed: 10
+    _rangeInUnits: 10
+    _normalOffset: 0
+    _timeLoad: 0
+    _speedMultiplierLoading: 0.5
+    _randomShotCount: {x: 6, y: 10}
+  _charge:
+    _enabled: 0
+    _chargeMultiplier: {x: 0, y: 1}
+    _chargeStep: 0.2
+  _aiming:
+    _enabled: 0
+    _aimingView: 10
+    _sensitivity: 5
